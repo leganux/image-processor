@@ -1,0 +1,32 @@
+📸 PROCESADOR DE IMÁGENES - GUÍA RÁPIDA 📸
+
+1. PREPARACIÓN:
+   - Coloca las imágenes que quieres procesar en la carpeta "input"
+   - Si quieres cambiar la marca de agua, reemplaza el archivo "watermark.png"
+
+2. PROCESAMIENTO:
+   - Simplemente haz DOBLE CLIC en "Procesar Imagenes"
+   - Se abrirá una ventana que mostrará el progreso
+   - Cuando termine, presiona cualquier tecla para cerrar la ventana
+
+3. RESULTADO:
+   - Encontrarás todas tus imágenes procesadas en la carpeta "output"
+   - Las imágenes originales no se modifican
+
+🔧 CONFIGURACIÓN (opcional):
+Si necesitas cambiar alguna configuración, edita el archivo "config.json":
+- "width" y "height": tamaño de las imágenes (por defecto 1080x1080)
+- "outputFormat": formato de salida (jpg, png)
+- "watermark": configuración de la marca de agua
+  * "enabled": true/false (activar/desactivar marca de agua)
+  * "width": tamaño de la marca de agua
+  * "opacity": transparencia (0.0 a 1.0)
+  * "position": posición (bottom-right, bottom-left, top-right, top-left, center)
+  * "padding": espacio desde los bordes
+
+❗️ IMPORTANTE:
+- No elimines ningún archivo del programa
+- Mantén las carpetas "input" y "output" en su lugar
+- Si algo no funciona, asegúrate de que las imágenes estén en la carpeta "input"
+
+✨ ¡Listo! Así de fácil es usar el procesador de imágenes ✨

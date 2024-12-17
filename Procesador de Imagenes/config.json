@@ -1,0 +1,16 @@
+{
+  "inputFolder": "./input",
+  "outputFolder": "./output",
+  "width": 1080,
+  "height": 1080,
+  "outputFormat": "jpg",
+  "removeWhiteBackground": true,
+  "watermark": {
+    "enabled": true,
+    "imagePath": "./logo.png",
+    "width": 350,
+    "opacity": 0.5,
+    "position": "bottom-right",
+    "padding": 20
+  }
+}
